@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product page</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="nav-bar"></div>
+
+  <div id="app">
+
+    <div class="cart">
+      <p>Cart({{ cart.length }})</p>
+  </div>
+
+    <product :premium="premium" @add-to-cart="updateCart"></product>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+  <script src="main.js"></script>
+</body>
+</html>
+
+<!--
+    v-bind por ser tão usado também pode ser usado só com :
+    pe: v-bind:alt="description" >  :alt="description"
+        exemplos:
+            :alt="description"
+            :title="title"
+            :href="url"
+            :class="class"
+            :style="style"
+            :disabled="isDisabled"
+
+    v-if funciona normalmente a um if regular
+        v-if
+        v-if-else
+        v-else
+
+    v-show aparece se for 'true'
+
+    v-for funciona como um for loop regular
+
+    :key
+
+    v-on tambem pode ser usado como @
+    v-on:?
+      ? = click
+          submit
+          keyup.enter
+
+-->
