@@ -1,0 +1,22 @@
+{
+  "name": "vue_test_temp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RubenSemiao/vue_test_temp.git"
+  },
+  "author": "R�ben Almeida",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RubenSemiao/vue_test_temp/issues"
+  },
+  "homepage": "https://github.com/RubenSemiao/vue_test_temp#readme",
+  "dependencies": {
+    "yarn": "^1.22.17"
+  }
+}
